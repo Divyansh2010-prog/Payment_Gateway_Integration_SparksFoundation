@@ -1,0 +1,137 @@
+#title{
+  background-color: #ff4c68;
+}
+h1,h2{
+  font-weight: 900;
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+}
+h2{
+  font-size: 3rem;
+}
+.button_for_pricing{
+  width: 100%;
+}
+.container-fluid{
+  padding: 3% 15%;
+
+}
+.download-button{
+  margin: 5% 5% 5% 0;
+}
+.phone-img{
+  transform: rotate(25deg);
+  padding-top:20px;
+  width: 20%;
+  position: absolute;
+  right: 22%;
+  top: 150px;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 2;
+  padding-bottom: 50px;
+  font-family: Ubuntu;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+#features{
+  background-color: #fff;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 11%;
+  position: relative;
+  z-index: 1;
+}
+
+.feat-icon{
+  font-size: 50px;
+  color: #ef8172;
+}
+.feat-icon:hover{
+  color:#ff4c68;
+}
+.feat{
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.feat-p{
+  color: #8f8f8f;
+  width: 230px;
+  display: inline-block;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 40%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1028px){
+  .phone-img{
+    position: static;
+    width: 300px;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align:center;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 12%;
+}
+.cta-h3{
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 5% 0;
+}
+.footer-icon{
+  padding: 0 10px 15px;
+}
+.footer-icon:hover{
+  color: #781C68;
+}
